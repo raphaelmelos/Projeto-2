@@ -1,0 +1,27 @@
+git init: inicializando repositório vazio
+git status: verificar status do documento
+git add "'nome do arquivo'": adicionar arquivo ao git
+gut add .: adicionar varios arquivos de uma só vez
+git commit -m "título preferido": preparar upload ao github
+git remote add origin (link do repositorio criado): indicar o novo repositorio no git
+git push --set-upstream origin (nome da branch): indicar branch desejada
+git push: concluir upload ao github
+git reflog: historico
+git reset --hard (id da versao): restaurar versao desejada
+git branch: verificar branches disponiveis
+git branch (nome de preferencia): criar nova branch
+git checkout (nome da branch): alternar entre branches
+git push --set-upstream origin (nome da branch): subir novas branches ao github
+git pull: verificar atualizacao de codigo
+Importar conteudo de outra branch: 
+ - Estando na branch de destino
+ - git pull: importa atualizacoes disponiveis do servidor para maquina
+ - git merge (nome da branch de origem)git 
+ - git push 
+git checkout -b(nome de nova branch) (nome de branch base): criar nova branch com base na branch principal, e ja alterar automaticamente a branch atual
+Selecionar pastas/arquivos que nao devem subir ao github
+ - Estando no git: Digite touch .gitignore
+ - Um arquivo de texto sera criado a pasta principal de nome ".gitignore"
+ - Dentro deste arquivo de texo, digite (nome da pasta/arquivo) em questao junto de "/"
+git config --global user.email: email do github destino
+git config --global user.name: nome de usuario github destino
